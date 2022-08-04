@@ -1,4 +1,5 @@
-# Realtime-chat Angular & typescript
+# Realtime-chat Angular tsx
+![Screenshot_1](https://user-images.githubusercontent.com/40389694/182814647-f9b69ea0-d772-4ab8-8de3-105a91e01fe6.png)
 
 Frontend for socket.io based chat app
 
