@@ -1,0 +1,27 @@
+$text-light: #b4ffb4;
+// TODO : use global varibales for colors
+$background: #000f08;
+
+.text-light {
+  color: $text-light;
+}
+
+.type-indicator {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
